@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name              = 'gpgme'
-  s.version           = '2.0.13'
+  s.version           = '2.0.13.1'
   s.authors           = ['Daiki Ueno', 'Albert Llop']
   s.date              = '2017-07-02'
   s.email             = 'ueno@gnu.org'
@@ -18,7 +18,7 @@ Made Easy). GnuPG Made Easy (GPGME) is a library designed to make access to
 GnuPG easier for applications. It provides a High-Level Crypto API for
 encryption, decryption, signing, signature verification and key management.}
 
-  s.add_runtime_dependency "mini_portile2", "~>2.1"
+  s.add_runtime_dependency "mini_portile2", "> 2.1"
 
   s.add_development_dependency "mocha",     "~> 0.9.12"
   s.add_development_dependency "minitest",  "~> 2.1.0"
